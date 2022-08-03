@@ -34,7 +34,7 @@ const AddUser = () => {
 
     return (
         <Container>
-            <Typography variant="h4">Add User</Typography>
+            <Typography variant="h4">Add Fans</Typography>
             <FormControl>
                 <InputLabel htmlFor="my-input">Name</InputLabel>
                 <Input onChange={(e) => onValueChange(e)} name='name' value={name} id="my-input" />

@@ -2,8 +2,8 @@
 
 import { Box, Typography, styled } from '@mui/material';
 
-import Youtube from '../Assets/Images/youtube.png';
-import InstaTele from '../Assets/Images/InstaTele.jpeg';
+import Youtube from '../Assets/Images/youtube.jpg';
+import InstaTele from '../Assets/Images/avenger.jpg';
 
 const Header = styled(Box)`
     margin: 50px;
@@ -21,7 +21,7 @@ const CodeForInterview = () => {
 
     return (
         <Header>
-            <Typography variant="h4">Code for Interview</Typography>
+            <Typography variant="h4">Marvel</Typography>
             <Box style={{display: 'flex'}}>
                 <Image src={Youtube} />
                 <Image src={InstaTele} />
